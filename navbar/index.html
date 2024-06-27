@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar Navbar</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="hamburger" onclick="toggleSidebar()">&#9776;</span>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
+            <div class="serch_field">
+            <input type="text" placeholder="search anything.......">
+            </div>
+        </nav>
+       
+    </header>
+    <aside class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </aside>
+    <main>
+        <h1>My name is wannas</h1>
+        <p>i am a developer</p>
+    </main>
+   
+</body>
+<script src="navbar.js"></script>
+</html>
